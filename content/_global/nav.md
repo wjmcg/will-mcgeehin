@@ -15,7 +15,7 @@ sticky = true
 # Branding options
 [asset]
   image = "logo.svg"
-  text = "Syna"
+  text = "Will"
 
 [repo_button]
   url = "https://github.com/wjmcg"

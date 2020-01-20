@@ -1,3 +1,4 @@
+googleAnalytics = "UA-156547535-1"
 # Site settings
 baseurl = "https://www.mcgeehin.com/"
 languageCode = "en-us"
@@ -8,10 +9,9 @@ themesDir = "themes/"
 enableGitInfo = true
 version = "0.16.0"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-ignorefiles = [ "content/dev/.*" ]
+ignorefiles = [ ]
 
-# Google Analytics tracking
-googleAnalytics = ""
+enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "JSON"]
@@ -57,12 +57,12 @@ lastmod = ["lastmod", ":git", "date"]
     pro = false
 
   [params.colors]
-    primary = "#00838F"
-    secondary = "#868e96"
-    success = "#008f54"
-    info = "#00c9dc"
-    warning = "#fdf314"
-    danger = "#dc1200"
+    primary = "#F25C00"
+    #secondary = "#868e96"
+    #success = "#008f54"
+    #info = "#00c9dc"
+    #warning = "#fdf314"
+    #danger = "#dc1200"
     light = "#f8f9fa"
     dark = "#343a40"
 

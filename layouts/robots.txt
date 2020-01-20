@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://www.mcgeehin.com/sitemap.xml
